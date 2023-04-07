@@ -1,0 +1,32 @@
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.question {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    text-align: center;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+button {
+    background-color: rgb(33, 127, 249);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+button:hover {
+    box-shadow: 0 10px 20px rgb(3, 112, 255);
+}
+.selectedItem {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 30px;
+}
